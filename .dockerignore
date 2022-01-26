@@ -1,6 +1,7 @@
+Dockerfile
+.gitignore
+readme.md
 .idea
 *.pyc
-.env
-.env.db
 staticfiles
 .coverage
