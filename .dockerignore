@@ -5,3 +5,4 @@ readme.md
 *.pyc
 staticfiles
 .coverage
+.pytest_cache
