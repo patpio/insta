@@ -33,3 +33,4 @@ def protected_serve(request, path, document_root=None, show_indexes=False):
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, protected_serve, document_root=settings.MEDIA_ROOT)
+    urlpatterns.append(path('__debug__/', include('debug_toolbar.urls')))
